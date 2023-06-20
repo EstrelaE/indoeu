@@ -209,7 +209,7 @@ body,
 input,
 select,
 textarea {
-  color: rgba(255, 255, 255, 0.55);
+  color: #37363C;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: normal;
@@ -279,7 +279,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #37363C;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.5em 0;
@@ -1930,9 +1930,9 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: #37363C !important;
   border-radius: 3em;
-  color: #ffffff !important;
+  color: #37363C !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -3313,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #2c2f87;
+  background-color: #F9BF0F;
 }
 
 .wrapper.style1-alt {
@@ -3321,7 +3321,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #B4CA3B;
 }
 
 .wrapper.style2-alt {
@@ -3329,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #D57768;
 }
 
 .wrapper.style3-alt {
@@ -3572,7 +3572,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
+  color: #37363C;
 }
 
 #header + #wrapper + #footer > .inner {
@@ -3821,14 +3821,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #F0F6F7;
 }
 
 #sidebar nav a:after {
   background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #B4CA3B, #F9BF0F);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
