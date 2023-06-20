@@ -209,7 +209,7 @@ body,
 input,
 select,
 textarea {
-  color: #37363c;
+  color: #37363C;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: normal;
@@ -279,7 +279,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #37363c;
+  color: #37363C;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.5em 0;
@@ -1930,9 +1930,9 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: #37363c !important;
+  border-color: #37363C !important;
   border-radius: 3em;
-  color: #37363c !important;
+  color: #37363C !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -3148,35 +3148,12 @@ body.is-ie .spotlights > section {
   opacity: 1;
 }
 
-.spotlights > section:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.01);
-}
 .spotlights > section:nth-child(2) {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: aliceblue;
 }
 
 .spotlights > section:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.03);
-}
-
-.spotlights > section:nth-child(4) {
-  background-color: rgba(0, 0, 0, 0.04);
-}
-
-.spotlights > section:nth-child(5) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.spotlights > section:nth-child(6) {
-  background-color: rgba(0, 0, 0, 0.06);
-}
-
-.spotlights > section:nth-child(7) {
-  background-color: rgba(0, 0, 0, 0.07);
-}
-
-.spotlights > section:nth-child(8) {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .spotlights > section.inactive > .image:before,
@@ -3336,7 +3313,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #f9bf0f;
+  background-color: #F9BF0F;
 }
 
 .wrapper.style1-alt {
@@ -3344,7 +3321,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-  background-color: #b4ca3b;
+  background-color: #B4CA3B;
 }
 
 .wrapper.style2-alt {
@@ -3352,7 +3329,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-  background-color: #d57768;
+  background-color: #D57768;
 }
 
 .wrapper.style3-alt {
@@ -3431,6 +3408,15 @@ body.is-preload .wrapper.fade-up > .inner {
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
+}
+
+.wrapper.fade-down.inactive > .inner,
+body.is-preload .wrapper.fade-down > .inner {
+  opacity: 0;
+  -moz-transform: translateY(-1em);
+  -webkit-transform: translateY(-1em);
+  -ms-transform: translateY(-1em);
+  transform: translateY(-1em);
 }
 
 .wrapper.fade > .inner {
@@ -3586,7 +3572,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: #37363c;
+  color: #37363C;
 }
 
 #header + #wrapper + #footer > .inner {
@@ -3835,14 +3821,14 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: #f0f6f7;
+  background: #F0F6F7;
 }
 
 #sidebar nav a:after {
   background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
   background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #b4ca3b, #f9bf0f);
+  background-image: linear-gradient(to right, #B4CA3B, #F9BF0F);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3930,7 +3916,7 @@ body.is-preload #sidebar nav ul li {
 
   #sidebar nav a:after {
     background-image: none;
-    background-color: #f9bf0f;
+    background-color: #F9BF0F;
   }
 }
 
